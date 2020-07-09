@@ -1,1 +1,132 @@
 /* Add CSS styling here */
+*{
+    
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height: 2;
+    font-size: 1.6rem;
+    background-color: grey;
+}
+#top{
+    background-color: beige;
+}
+#top nav{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 5%;
+}
+.movement{
+    margin: 0 5%;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.movement a{
+    background-color: brown;
+    color: whitesmoke;
+    border: solid black 2px;
+    text-decoration: none;
+}
+.movement a:hover{
+    background-color: grey;
+    color: black;
+}
+#middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ps4{
+    width: 30%;
+    height: 30%;
+    margin: 2% 5%;
+}
+.ps4 img{
+    max-width: 100%;
+    max-height: 100%;
+    border: solid black 5px;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.words h2{
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.words p{
+    font-size: 2.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.words button{
+    width:50%; 
+    background-color: #4169E1;
+}
+.words button:hover{
+    background-color: coral;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.first img{
+    width: 60%;
+    height: 60%;
+    margin: 2% 2%;
+    border: 5px solid black;
+}
+.first p{
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.second img{
+    width: 60%;
+    height: 60%;
+    margin: 2% 2%;
+    border: 5px solid black;
+}
+.second p{
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer nav{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer h3{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer a{
+    background-color: crimson;
+    border: solid black 2px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: cyan;
+    color: black;
+}
