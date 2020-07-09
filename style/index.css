@@ -1,4 +1,4 @@
-/* Add CSS styling here */
+/* Add CSS styling here */  
 html{
     font-size: 62.5%;
 }
@@ -126,4 +126,10 @@ footer a{
 footer a:hover{
     background-color: cyan;
     color: black;
+}
+.fab fa-facebook{
+    color: blue;
+    width: 25px;
+    height: 25px;
+    
 }
