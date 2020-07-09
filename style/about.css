@@ -1,3 +1,4 @@
+
 html{
     font-size: 62.5%;
 }
@@ -34,6 +35,54 @@ h1{
         background-color: grey;
         color: black;
     }    
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.joke img{
+    width: 75%;
+    height: 75%;
+    margin: 2% 2%;
+}
+.joke p{
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.basic{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.basic h2{
+    font-size: 3.5rem;
+}
+
+#About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.likes, .dislike, .haha{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: white dotted 5px;
+    padding: 0 2%;
+}
+.likes h3{
+    font-size: 2.5rem;
+}
+.dislike h3{
+    font-size: 2.5rem;
+}
+.haha h3{
+    font-size: 2.5rem;
+}
 
 
 footer nav{
