@@ -58,3 +58,10 @@ footer a:hover{
     background-color: cyan;
     color: black;
 }
+
+@media(max-width: 800px){
+    .apple p{
+        padding: 2% 0;
+    }
+}
+

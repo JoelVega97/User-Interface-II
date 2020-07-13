@@ -43,8 +43,8 @@ h1{
     justify-content: space-around;
 }
 .ps4{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     margin: 2% 5%;
 }
 .ps4 img{
@@ -132,4 +132,50 @@ footer a:hover{
     width: 25px;
     height: 25px;
     
+}
+/* begining of the 800px edit*/
+@media(max-width: 800px){
+    
+    .apple p{margin: 2% 0;
+    }
+}
+/*End of the 800px edit because everything else seems fine.*/
+
+/*Begining of 500px edits*/
+@media(max-width: 500px){
+    #top nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #top .movement{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .name{
+        text-align: center;
+    }
+    .ps4 img{
+        width: 150%;
+        height: 150%;
+    }
+    .movement a{
+        margin:5%;
+    }
+    #middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .first, .second{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .first div, .second div{
+        width: 50%;
+    }
 }
